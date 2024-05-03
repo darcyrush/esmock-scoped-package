@@ -1,0 +1,15 @@
+{
+  "name": "scoped-package-mock",
+  "type": "module",
+  "scripts": {
+    "test": "TSIMP_PROJECT=./test/tsconfig.json node --import tsimp/import --test-reporter spec --test 'test/example.test.ts'"
+  },
+  "dependencies": {
+    "@nestjs/core": "^10.3.8"
+  },
+  "devDependencies": {
+    "esmock": "^2.6.5",
+    "tsimp": "^2.0.11",
+    "typescript": "^5.4.5"
+  }
+}
