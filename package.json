@@ -8,6 +8,7 @@
     "@nestjs/core": "^10.3.8"
   },
   "devDependencies": {
+    "@types/node": "^20.12.7",
     "esmock": "^2.6.5",
     "tsimp": "^2.0.11",
     "typescript": "^5.4.5"
