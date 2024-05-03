@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@nestjs/core": "^10.3.8"
+    "@nestjs/platform-express": "^10.3.8"
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
