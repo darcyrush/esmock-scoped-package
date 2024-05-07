@@ -5,7 +5,7 @@
     "test": "TSIMP_PROJECT=./test/tsconfig.json node --import tsimp/import --test-reporter spec --test 'test/example.test.ts'"
   },
   "dependencies": {
-    "@nestjs/core": "^10.3.8"
+    "@nestjs/core": "^10.3.8",
     "@nestjs/platform-express": "^10.3.8"
   },
   "devDependencies": {
