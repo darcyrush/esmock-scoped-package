@@ -1,4 +1,4 @@
-// https://github.com/TypeStrong/ts-node/pull/2073
+// https://github.com/TypeStrong/ts-node/issues/2100
 
 import { pathToFileURL } from "node:url";
 import { register } from "node:module";
